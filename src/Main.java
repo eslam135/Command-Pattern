@@ -19,6 +19,7 @@ public class Main {
         customizer.undoLastCommand();
 
         customizer.removeWeapon(spaceship, laser);
+        customizer.removeDefense(spaceship, shield);
 
         spaceship.printStatus();
     }
